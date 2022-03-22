@@ -1,0 +1,10 @@
+server:
+  port: 8060
+  servlet:
+    context-path: /
+  undertow:
+    max-http-post-size: -1
+    buffer-size: 512
+    io-threads: 20
+    worker-threads: 256
+    direct-buffers: true
