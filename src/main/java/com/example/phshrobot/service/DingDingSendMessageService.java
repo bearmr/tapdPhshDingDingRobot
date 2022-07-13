@@ -53,9 +53,9 @@ public class DingDingSendMessageService {
 
     public static void main(String[] args) {
         Long timestamp = System.currentTimeMillis();
-        String secret = "自己的秘钥";
+        String secret = "SEC5c42d3f27368c7addbc0c5f6a79eac6774aef56672d63486ba2f741ed5258e15";
         String stringToSign = timestamp + "\n" + secret;
-        String token = "自己的token";
+        String token = "92c7b6130098fb1de238167dbd43d9371e4c028f2233d81c1169a068d483b5c8";
         try {
             Mac mac = Mac.getInstance("HmacSHA256");
             mac.init(new SecretKeySpec(secret.getBytes("UTF-8"), "HmacSHA256"));

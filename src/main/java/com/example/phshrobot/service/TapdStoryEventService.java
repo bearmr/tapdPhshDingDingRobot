@@ -85,7 +85,7 @@ public class TapdStoryEventService implements ITapdCommonService {
     public DingDingMessageDto getStoryCraeteMdMessage(JSONObject json) {
         JSONObject newTagJson = json.getJSONObject("new");
         StringBuilder builder = new StringBuilder();
-        builder.append(StrFormatter.format("#####需求: {} ",
+        builder.append(StrFormatter.format("##### 需求: {} ",
                 newTagJson.getString("name")));
         builder.append("\n");
         builder.append(StrFormatter.format("- 状态: {}",
