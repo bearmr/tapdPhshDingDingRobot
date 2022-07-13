@@ -26,10 +26,11 @@ public class DingDingPushConllter {
                             @RequestParam(value = "secret") String secret,
                             @RequestParam(value = "type", defaultValue = "text") String type
     ) {
-        System.out.println(data.toJSONString());
+
         if (data == null) {
             return;
         }
+        log.error(data.toJSONString());
         DingDingMessageDto messageDto = handleService.messageHandle(
                 TapdParamsDto.builder()
                         .data(data)
@@ -47,5 +48,5 @@ public class DingDingPushConllter {
 
     }
 
-    
+
 }
