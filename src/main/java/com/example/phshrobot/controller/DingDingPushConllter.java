@@ -7,10 +7,11 @@ import com.example.phshrobot.dto.DingDingSendMessageDto;
 import com.example.phshrobot.dto.TapdParamsDto;
 import com.example.phshrobot.service.DingDingSendMessageService;
 import com.example.phshrobot.service.TapdHandleService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-
+@Slf4j
 @RestController
 @RequestMapping("dingdingpush")
 public class DingDingPushConllter {
@@ -46,13 +47,5 @@ public class DingDingPushConllter {
 
     }
 
-    @RequestMapping("tapdWebhook1")
-    public void tapdWebhook1(
-
-                            @RequestParam(value = "accessToken") String accessToken,
-                            @RequestParam(value = "secret") String secret,
-                            @RequestParam(value = "type", defaultValue = "text") String type
-    ){
-        System.out.println("进来这里了");
-    }
+    
 }

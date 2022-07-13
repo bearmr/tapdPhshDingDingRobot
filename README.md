@@ -8,35 +8,35 @@
 >   该步骤需要钉钉群主/群管理配合操作</br>
 
 - 钉钉电脑版，打开钉钉群设置 </br>
-  ![image](https://note.youdao.com/yws/res/4/WEBRESOURCE80541faf7868d3b2e305344954255174)
+  ![钉钉群设置.png](https://pic.jitudisk.com/public/2022/07/12/13e23a4779101.png)
 - 找到智能群助手 </br>
-  ![image](https://note.youdao.com/yws/res/1/WEBRESOURCE6cee0d891a6965876a088b4ba4f39341)
+  ![钉钉找到群助手.png](https://pic.jitudisk.com/public/2022/07/12/469e378715351.png)
 - 找到添加机器人 </br>
-  ![image](https://note.youdao.com/yws/res/5/WEBRESOURCE44edb33b2db2069ab2147ea0379c6ea5)
+  ![找到添加机器人.png](https://pic.jitudisk.com/public/2022/07/12/f1cff573d5347.png)
 - 选择添加webhook机器人 </br>
-  ![image](https://note.youdao.com/yws/res/2/WEBRESOURCE75f3c77c070d0d8cfbd485876790de32)
+  ![选择添加安全机器人.png](https://pic.jitudisk.com/public/2022/07/12/c6fc263cb1b8d.png)
 - 安全设置 </br>
-  ![image](https://note.youdao.com/yws/res/8/WEBRESOURCE4d10b43a9f8d4340c99420885e660e28)
+  ![安全设置.png](https://pic.jitudisk.com/public/2022/07/12/725f1eb9cdafd.png)
 - 复制Token </br>
-  ![image](https://note.youdao.com/yws/res/3/WEBRESOURCE0ff754e79d0711d628a3b08247e3c073)
+  ![复制Token.png](https://pic.jitudisk.com/public/2022/07/12/f36f47f2ffdc8.png)
 
 #### Tapd前置准备
 - 使用浏览器打开TAPD平台,选择某个项目 </br>
-  ![image](https://note.youdao.com/yws/res/5/WEBRESOURCE6a805ad94d250710d327ea665f8593c5)
+  ![使用浏览器打开TAPD平台,选择某个项目.png](https://pic.jitudisk.com/public/2022/07/12/e36e8734dbb25.png)
 - 点击更多-设置</br>
-  ![image](https://note.youdao.com/yws/res/4/WEBRESOURCE972cbaca993c35d475c338b14c59bcc4)
+  ![点击更多-设置.png](https://pic.jitudisk.com/public/2022/07/12/a3795a3dab2c0.png)
 - 点击自动化助手 </br>
-  ![image](https://note.youdao.com/yws/res/0/WEBRESOURCE45ab105541e072a41fcc54c18e815a40)
+  ![点击自动化助手.png](https://pic.jitudisk.com/public/2022/07/12/e451711b39631.png)
 - 添加自动化规则</br>
-  ![image](https://note.youdao.com/yws/res/3/WEBRESOURCE4d880582d405c4d7ed3d103eab1aa313)
+  ![添加自动化规则.png](https://pic.jitudisk.com/public/2022/07/12/6fcc673dea08a.png)
 - 选择想提醒的事件内容 </br>
-  ![image.png](https://note.youdao.com/yws/res/7/WEBRESOURCE2eb79ee5987ca974b9ca0929c6a5ad37)
+  ![选择想提醒的事件内容.png](https://pic.jitudisk.com/public/2022/07/12/1773b7a229d9c.png)
 - 执行**WEBhook**动作 </br>
-  ![image](https://note.youdao.com/yws/res/4/WEBRESOURCE4439c0029e7fcabdb04f7de26c7ac1c4)
+  ![执行WEBhook.png](https://pic.jitudisk.com/public/2022/07/12/0216412cbfa4d.png)
 - Webhook推送 </br>
-  ![image.png](https://note.youdao.com/yws/res/1/WEBRESOURCE3cf145c0a7e6971fc2c53c613cb99621)
+  ![Webhook推送.png](https://pic.jitudisk.com/public/2022/07/12/6233f62e7d1f7.png)
 - 配置服务器相关配置</br>
-  ![image](https://note.youdao.com/yws/res/5/WEBRESOURCE44fa58b9c0315ea579a0e0d80de64185)
+  ![服务器相关配置.png](https://pic.jitudisk.com/public/2022/07/12/7658d99ab7698.png)
 
 
 >  Webhook请求url对应配置示例</br>
